@@ -1,0 +1,14 @@
+a_list=[1,"hello",[1,2,3],True]
+print(len(a_list))
+print(a_list[2:])
+t=a_list[2:]
+t[0]='CBSE'
+t[1]="CSE"
+print(t)
+a_list.remove(a_list[2][0])
+print(a_list)
+a_list.append(["CBSE","ICSE"])
+a_list.extend(["CBSE","ICSE"])
+t=[100]
+t.extend(a_list)
+print(t)

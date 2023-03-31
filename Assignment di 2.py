@@ -1,0 +1,16 @@
+import numpy as np
+arr=np.array([1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25])
+newarr=arr[0:24]
+n1=newarr.reshape(2,12)
+n2=newarr.reshape(3,8)
+n3=newarr.reshape(4,6)
+n5=newarr.reshape(2,2,6)
+n6=newarr.reshape(2,3,4)
+n7=newarr.reshape(1,2,12)
+print(newarr)
+print(n1)
+print(n2)
+print(n3)
+print(n5)
+print(n6)
+print(n7)

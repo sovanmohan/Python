@@ -1,0 +1,10 @@
+import numpy as np
+arr=np.array([1,2,3,4,5,6,7])
+print(arr[0:4])
+print(arr[2:5])
+print(arr[3:])
+print(arr[0:6])
+print(arr[0-len(arr):4-len(arr)])
+print(arr[2-len(arr):5-len(arr)])
+print(arr[3-len(arr):])
+print(arr[0-len(arr):6-len(arr)])
